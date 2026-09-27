@@ -1,0 +1,25 @@
+### Android (Nejda/) ###
+Nejda/build/
+Nejda/app/build/
+Nejda/.gradle/
+Nejda/local.properties
+Nejda/gradle.properties
+Nejda/*.jks
+Nejda/*.keystore
+Nejda/captures/
+Nejda/.idea/
+Nejda/*.iml
+
+### Java/Maven (nejda_dash, rescueapp) ###
+nejda_dash/target/
+nejda_dash/out/
+rescueapp/target/
+**/*.class
+**/.idea/
+**/*.iml
+
+### General ###
+.DS_Store
+*.log
+.env
+rescueapp/rescueapp/src/main/resources/firebase_admin.json

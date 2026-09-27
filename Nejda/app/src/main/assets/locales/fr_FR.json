@@ -1,0 +1,104 @@
+{
+  "welcome_header": "Soyez tranquille, sachez ce qu'ils font.",
+  "login": "Se connecter",
+  "login_to": "Se connecter à {$0}",
+  "signup": "S'inscrire",
+  "forgot_pass": "Mot de passe oublié ?",
+  "tos": "J'accepte les conditions d'utilisation et les politiques de données de {$0}",
+  "login_tos" : "En continuant, vous acceptez nos Conditions d'utilisation et reconnaissez avoir lu notre Politique de confidentialité.",
+  "or_you_can" : "ou vous pouvez",
+  "login_with": "Se connecter avec",
+  "enter_username": "Saisissez votre nom d'utilisateur",
+  "enter_pass": "Saisissez votre mot de passe",
+  "enter_email": "Saisissez votre adresse e-mail",
+  "pass_required": "Un mot de passe est requis",
+  "username_required": "Un nom d'utilisateur est requis",
+
+  "signup_success" : "Vous vous êtes inscrit, vous pouvez vous connecter à votre compte",
+
+  "home": "Accueil",
+  "screenshots": "Captures d'écran",
+  "microphone": "Microphone",
+  "locations": "Emplacements",
+  "settings": "Paramètres",
+
+  "save" : "Enregistrer",
+  "cancel" : "Annuler",
+
+  "bond_status": "État du lien",
+  "screen_history": "Historique de l'écran",
+  "mic_history": "Historique du microphone",
+  "location_history": "Historique des emplacements",
+  "view_more": "Voir plus",
+
+  "bond_active": "Votre lien est actif",
+  "bond_profile": "Profil",
+
+  "no_bond": "Vous n'avez pas de lien...",
+
+  "destroy_bond": "Détruire le lien",
+  "find_your": "Trouvez votre personne",
+  "cancel_request": "Annuler la demande",
+
+  "user_profile": "Profil utilisateur",
+  "user_gender": "Genre",
+  "user_bio": "Biographie",
+  "username": "Nom d'utilisateur",
+  "email": "E-mail",
+  "password": "Mot de passe",
+  "gender_male": "Homme",
+  "gender_female": "Femme",
+  "gender_unknown": "Inconnu",
+  "gender_changed": "Votre genre a été défini !",
+  "bio_changed": "Votre biographie a été modifiée !",
+  "username_changed": "Votre nom d'utilisateur a été modifié !",
+  "avatar_changed": "Votre avatar a été modifié !",
+
+  "bond_settings": "Paramètres du lien",
+  "change_pass": "Modifier le mot de passe",
+  "change_bio": "Modifier votre biographie",
+  "change_username": "Modifier votre nom d'utilisateur",
+  "set_gender": "Sélectionnez votre genre",
+
+  "current_pass": "Votre mot de passe actuel",
+  "new_pass": "Nouveau mot de passe",
+  "on_screen_notify": "Sur demande de capture d'écran",
+  "on_mic_notify": "Sur demande de microphone",
+  "on_location_notify": "Sur demande de localisation",
+
+  "screen_share_consent": "Consentement de partage d'écran",
+  "keep_consent": "Conserver le consentement de l'utilisateur",
+  "ask_consent": "Demander à chaque fois",
+
+  "censor_apps": "Applications censurées",
+  "censor_apps_hint": "Les applications que vous cochez dans cette liste seront floues dans les captures d'écran",
+
+  "set_app_theme": "Définir le thème de l'application",
+  "app_theme": "Thème de l'application",
+  "theme_system": "Suivre le système",
+  "theme_dark": "Sombre",
+  "theme_light": "Clair",
+
+  "set_animations": "Définir la vitesse des animations",
+  "animations": "Animations",
+  "animation_slow": "Lent",
+  "animation_default": "Par défaut",
+  "animation_fast": "Rapide",
+  "animation_off": "Pas d'animations",
+
+  "set_language": "Définir la langue",
+  "language": "Langue",
+  "en_us": "Anglais",
+  "fr_fr": "Français",
+  "ar_ar": "Arabe",
+
+  "display_settings": "Affichage",
+  "account_settings": "Compte",
+  "notification_settings": "Notifications",
+  "privacy_settings": "Confidentialité",
+
+
+  "problem_string": "Quelque chose s'est mal passé",
+
+  "log_out": "Se déconnecter"
+}

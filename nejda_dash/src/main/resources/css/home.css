@@ -1,0 +1,234 @@
+/* Home Page Styles for Nejda Admin Dashboard */
+
+/* General Styles */
+.root {
+    -fx-font-family: "Roboto", sans-serif;
+}
+
+/* Color Variables */
+* {
+    -primary-bg: #1E1E1E;
+    -secondary-bg: #252525;
+    -accent-color: #26A69A;
+    -alert-color: #F44336;
+    -text-white: #FFFFFF;
+    -text-light-gray: #B0B0B0;
+    -text-dark-gray: #707070;
+    -border-color: #3A3A3A;
+}
+
+/* Base Layout */
+#mainLayout {
+    -fx-background-color: -primary-bg;
+}
+
+/* Navigation Sidebar */
+#navigationSidebar {
+    -fx-background-color: -secondary-bg;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.sidebar-title {
+    -fx-text-fill: -text-white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0;
+}
+
+.menu-item {
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.menu-item:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+}
+
+.menu-item.active {
+    -fx-background-color: -accent-color;
+}
+
+.menu-icon {
+    -fx-text-fill: -text-light-gray;
+}
+
+.menu-label {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 14px;
+}
+
+.menu-item.active .menu-label, .menu-item.active .menu-icon {
+    -fx-text-fill: -text-white;
+}
+
+.admin-name {
+    -fx-text-fill: -text-white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.logout-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: -text-light-gray;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.logout-button:hover {
+    -fx-text-fill: -accent-color;
+}
+
+/* Header Bar */
+#headerBar {
+    -fx-background-color: -secondary-bg;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: -border-color;
+}
+
+.time-date {
+    -fx-text-fill: -text-white;
+    -fx-font-size: 14px;
+}
+
+.status-label, .alerts-label {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 13px;
+}
+
+.search-placeholder {
+    -fx-text-fill: -text-dark-gray;
+    -fx-font-size: 13px;
+}
+
+.notification-icon, .profile-icon {
+    -fx-text-fill: -text-white;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+/* Main Content Area */
+#mainContentArea {
+    -fx-background-color: -primary-bg;
+    -fx-padding: 20px;
+}
+
+/* Metric Boxes */
+.metric-box {
+    -fx-background-color: -secondary-bg;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.metric-value {
+    -fx-text-fill: -accent-color;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+.metric-title {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 13px;
+}
+
+/* Panels */
+.panel {
+    -fx-background-color: -secondary-bg;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.panel-title {
+    -fx-text-fill: -text-white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 10 0;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: -border-color;
+}
+
+/* Alert Items */
+.alert-item {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-background-radius: 5;
+    -fx-border-width: 0 0 0 3;
+}
+
+.alert-item.severity-high {
+    -fx-border-color: -alert-color;
+}
+
+.alert-item.severity-medium {
+    -fx-border-color: orange;
+}
+
+.alert-item.severity-low {
+    -fx-border-color: yellow;
+}
+
+.alert-type {
+    -fx-text-fill: -text-white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.alert-location {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 12px;
+}
+
+.alert-time, .alert-severity {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 12px;
+}
+
+.view-button, .resolve-button {
+    -fx-background-radius: 3;
+    -fx-text-fill: -text-white;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+}
+
+.view-button {
+    -fx-background-color: #444444;
+}
+
+.resolve-button {
+    -fx-background-color: -accent-color;
+}
+
+/* Map Panel */
+.map-placeholder {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-background-radius: 5;
+    -fx-border-width: 1;
+    -fx-border-color: -border-color;
+    -fx-border-radius: 5;
+}
+
+.map-label {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-style: italic;
+}
+
+/* Response Panel */
+.response-label {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 13px;
+}
+
+.response-value {
+    -fx-text-fill: -text-white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Activity Feed */
+.activity-time {
+    -fx-text-fill: -accent-color;
+    -fx-font-size: 12px;
+}
+
+.activity-desc {
+    -fx-text-fill: -text-light-gray;
+    -fx-font-size: 12px;
+} 

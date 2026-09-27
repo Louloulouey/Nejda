@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418248998892",
+    "project_id": "nejda-39caf",
+    "storage_bucket": "nejda-39caf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418248998892:android:fcd4e1fb323a687a640ac9",
+        "android_client_info": {
+          "package_name": "com.sdidsa.nejda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0vJQbyV_QcOTFRxPkcnfTeAaqoJqnaB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

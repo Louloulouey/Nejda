@@ -1,0 +1,35 @@
+[versions]
+agp = "8.10.0"
+gmsVer = "4.4.2"
+appcompatVersion = "1.7.0"
+recyclerview = "1.4.0"
+overscrollDecorAndroid = "1.1.1"
+zxingVer = "3.5.3"
+firebaseMessaging = "24.1.1"
+core = "4.6.2"
+filamentAndroid = "1.57.1"
+gltfioAndroid = "1.57.1"
+filamentUtilsAndroid = "1.57.1"
+kotlin = "2.1.20"
+coreKtx = "1.16.0"
+filamatAndroid = "1.57.1"
+
+[libraries]
+kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompatVersion" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+overscroll-decor-android = { group = "io.github.everythingme", name = "overscroll-decor-android", version.ref = "overscrollDecorAndroid" }
+zxing = { group = "com.google.zxing", name = "core", version.ref = "zxingVer" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+md-core = { group = "io.noties.markwon", name = "core", version.ref = "core" }
+filament-android = { group = "com.google.android.filament", name = "filament-android", version.ref = "filamentAndroid" }
+gltfio-android = { group = "com.google.android.filament", name = "gltfio-android", version.ref = "gltfioAndroid" }
+filament-utils-android = { group = "com.google.android.filament", name = "filament-utils-android", version.ref = "filamentUtilsAndroid" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+filamat-android = { group = "com.google.android.filament", name = "filamat-android", version.ref = "filamatAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+gms = { id = "com.google.gms.google-services", version.ref="gmsVer" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
